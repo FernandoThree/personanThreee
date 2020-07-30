@@ -1,0 +1,23 @@
+runtime: custom
+service: app-sae-15-autoregulacion
+instance_class: B1
+env: flex
+entrypoint: gunicorn -t 300 -b :SPORT main:app
+
+manual_scaling:
+  instances: 1
+
+handlers:
+  # This configures Google App Engine to serve the files in the app's static
+  # directory.
+- url: /.*
+  script: auto
+  secure: always
+
+env_variables:
+  URL_MGT: 'https://my.geotab.com/apiv1/'
+  HDRS_MGT: '{"content-type": "application/json", "cache-control": "no-cache, no-store, must-revalidate","accept-encoding" : "gzip, deflate"}'
+  LGIN_DATA: '{ "method": "Authenticate","params": { "database": "sae_pup", "userName": "gae.sendmime.py@saeado.com",  "password": "oi*CsZDJZSLYWx$m" }}'
+  KIND_DS: 'MON_GB_CRED'
+  ACL_SERVICE: 'ACL_SEND_MIMES'
+  MCSERVICE: 'mime_messages_pup'
