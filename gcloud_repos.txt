@@ -1,0 +1,10 @@
+  gcloud source repos clone  REPO_NAME
+  gcloud source repos create
+  gcloud source repos delete
+  gcloud source repos describe
+  gcloud source repos get-iam-policy
+  gcloud source repos list       		Conocer las url de los repositorios.
+  gcloud source repos set-iam-policy
+  gcloud source repos update
+
+git submodule add https://source.developers.google.com/p/proy-vsp-sae-v1-deploy-test-v1/r/mod-sae15-mssql-almacenamiento Almacenamiento

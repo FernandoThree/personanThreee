@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtectConexion", "ProtectConexion.csproj", "{8411FCEE-A5D0-49D7-AF2B-0AFAFB4A916C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalador_Encrypter_SIIAB", "Instalador_Encrypter_SIIAB\Instalador_Encrypter_SIIAB.vdproj", "{8453DAC9-C1F7-47B4-BA6C-1E3DF74A1A05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8411FCEE-A5D0-49D7-AF2B-0AFAFB4A916C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8411FCEE-A5D0-49D7-AF2B-0AFAFB4A916C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8411FCEE-A5D0-49D7-AF2B-0AFAFB4A916C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8411FCEE-A5D0-49D7-AF2B-0AFAFB4A916C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8453DAC9-C1F7-47B4-BA6C-1E3DF74A1A05}.Debug|Any CPU.ActiveCfg = Debug
+		{8453DAC9-C1F7-47B4-BA6C-1E3DF74A1A05}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {183264F2-3FAE-492D-B87F-052DB2CEE889}
+	EndGlobalSection
+EndGlobal
